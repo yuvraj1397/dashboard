@@ -2,16 +2,16 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const apiRoutes = require('./routes/api');
-require('dotenv').config(); 
+// require('dotenv').config(); 
 
 const app = express();
 
 
 app.use(cors());
 app.use(express.json());
-
+mp="mongodb://localhost:27017/test";
 // MongoDB connection
-mongoose.connect(process.env.MONGODB_URI, {
+mongoose.connect(mp, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
