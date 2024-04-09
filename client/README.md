@@ -4,7 +4,7 @@ This is a Single Page Application (SPA) built with React using Create React App.
 
 ## Overview
 
-This project utilizes Create React App, a popular tool for quickly setting up React applications. It follows the principles of a Single Page Application, where the entire application runs within a single HTML page, dynamically updating as users interact with it without the need for full page reloads.
+This project utilizes Create React App, a popular tool for quickly setting up React applications. This is a dashboard. It follows the principles of a Single Page Application, where the entire application runs within a single HTML page, dynamically updating as users interact with it without the need for full page reloads.
 
 ## Available Scripts
 
